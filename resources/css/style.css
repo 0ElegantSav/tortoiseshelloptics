@@ -42,3 +42,39 @@ html{
   margin-top:10rem;
   padding: 1.5rem 5rem;
 }
+
+/*SERVICES SECTION*/
+.services{
+  display: flex;
+  padding: 3rem 0;
+  max-width: 960px;
+  margin: 0 auto;
+}
+
+.image-block{
+  display: flex;
+  flex-direction: column;
+  height: 8rem;
+  text-align: center;
+  margin-right: 6rem;
+}
+
+/*INFORMATION SECTION*/
+.information{
+  display: flex;
+  justify-content: space-between;
+  margin-top: 3rem;
+}
+
+.philosophy h2, .appointments h2{
+  font-weight: bold;
+  background-color: cadetblue;
+  padding-top:0.5rem;
+  padding-bottom: 0.5rem;
+  padding-left: 1.25rem;
+  margin-bottom: 1rem;
+}
+
+.philosophy, .appointments{
+  width: 35%;
+}
