@@ -66,6 +66,7 @@ html{
   display: flex;
   justify-content: space-between;
   margin-top: 3rem;
+  margin-bottom: 5rem;
 }
 
 .philosophy h2, .appointments h2{
@@ -79,4 +80,20 @@ html{
 
 .philosophy, .appointments{
   width: 35%;
+}
+
+/*FOOTER SECTION*/
+footer{
+  background-color: azure;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  padding: 4rem 0 4rem 4rem;
+  max-width: 964px;
+  margin: 0 auto;
+}
+
+footer img{
+  height: 1.5rem;
+  margin-right: 1rem;
 }
