@@ -20,7 +20,13 @@ html{
   margin-right: 1rem;
 }
 
-.header span{
+.logo{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.contact-list span{
   margin: 1rem 2rem 1rem 0;
 }
 
